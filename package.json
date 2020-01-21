@@ -1,0 +1,27 @@
+{
+  "name": "node_challenge",
+  "version": "1.0.0",
+  "description": "coding challenge for Node server",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpolishak/nodeChallenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpolishak/nodeChallenge/issues"
+  },
+  "homepage": "https://github.com/cpolishak/nodeChallenge#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "request": "^2.88.0"
+  }
+}
