@@ -24,11 +24,14 @@
                 <div class="col-6">
                     <ul class="text-left font-weight-bold" style="list-style: none;">
                         <div class="card list-group bg-light p-3">
-                            <p>Name: <%= data.results[0].name %></p>
+                            <p>Name:  <%= data.results[0].name %></p>
                             <p>Address: <%= data.results[0].formatted_address %></p>
                             <p>Rating: <%= data.results[0].rating %></p>
                             <p>Total Ratings: <%= data.results[0].user_ratings_total %></p>
                             <p>Type: <img style="max-width: 30px;" src="<%= data.results[0].icon %>"></img></p>
+
+                            <p> <%= data.results[0] %> </p>
+                            
                         </div>
                     </ul>
                 </div>
@@ -36,19 +39,15 @@
             
             <button><a href="/">Search Again!</a></button>
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-2"></div>
                 <div class="col-8">
                     <ul style="list-style: decimal;">
                         <h3 class="py-3">Here are the locations near you:</h3>
-                        <% data["results"].forEach(function(item) { %>
-                            <li class="text-left p-1">
-                                <%= item["name"] %> - <%= item["formatted_address"] %>
-                            </li>
-                        <% }) %>
+                      
                     </ul>
                 </div>
-            </div>
+            </div> -->
 
             
             

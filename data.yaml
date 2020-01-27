@@ -1,0 +1,31 @@
+## Customer Config Info
+banks: 
+  # Explicitly typed ordered map (dictionary).
+  sunrise: !!omap
+    - customer_name: Sunrise Bank
+    - API_Key: AIzaSyAWwP5yH9Hke0FQkwEUujx-L8QelE27ZpY
+    - type: atm
+    - language: English
+    - response output: xml
+    - number of nearby locations to request: 200
+    # Etc.
+  
+  # Explicitly typed ordered map (dictionary).
+  happy: !!omap
+    - customer_name: Happy Credit Union
+    - API_Key: AIzaSyAYaNzyQoSDKW0FIUxhEgUEsmPic9XqtPU
+    - type: bank
+    - language: Spanish
+    - response output: json
+    - number of nearby locations to request: 20
+    # Etc.
+
+  # Explicitly typed ordered map (dictionary).
+  paris: !!omap
+    - customer_name: Paris FCU
+    - API_Key: AIzaSyAdAnwAfMAEDU3igUPKq_v8QrapgzyNHT4
+    - type: all
+    - language: French
+    - response output: json
+    - number of nearby locations to request: 5
+    # Etc.
