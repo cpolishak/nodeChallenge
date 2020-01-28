@@ -4,7 +4,7 @@
   "description": "coding challenge for Node server",
   "main": "app.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --exit",
     "start": "node app.js"
   },
   "repository": {
@@ -26,5 +26,8 @@
     "mocha": "^7.0.0",
     "request": "^2.88.0",
     "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "nock": "^11.7.2"
   }
 }
