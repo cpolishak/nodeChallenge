@@ -27,5 +27,3 @@ banks:
     response_output: json
     numbLocationstoReq: 5
     # Etc.
-  googKey:
-    googKey: AIzaSyDthfVeTTxxJCH35rJJehihRguA_AHsXMQ
